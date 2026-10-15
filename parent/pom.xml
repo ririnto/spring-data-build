@@ -1118,23 +1118,6 @@
 			</plugin>
 
 			<plugin>
-				<groupId>com.springsource.bundlor</groupId>
-				<artifactId>com.springsource.bundlor.maven</artifactId>
-				<configuration>
-					<enabled>${bundlor.enabled}</enabled>
-					<failOnWarnings>${bundlor.failOnWarnings}</failOnWarnings>
-				</configuration>
-				<executions>
-					<execution>
-						<id>bundlor</id>
-						<goals>
-							<goal>bundlor</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-
-			<plugin>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok-maven-plugin</artifactId>
 				<configuration>
