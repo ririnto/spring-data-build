@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.data</groupId>
 	<artifactId>spring-data-releasetrain</artifactId>
-	<version>Ingalls-SR24-ririnto.1</version>
+	<version>Ingalls-SR24.1</version>
 	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>org.springframework.data.build</groupId>
 		<artifactId>spring-data-build</artifactId>
-		<version>1.9.24-ririnto.1</version>
+		<version>1.9.24.1</version>
 	</parent>
 
 	<name>Spring Data Release Train - BOM</name>
@@ -36,7 +36,7 @@
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-commons</artifactId>
-				<version>1.13.24-ririnto.1</version>
+				<version>1.13.24.1</version>
 			</dependency>
 
 			<!-- Spring Data Couchbase -->
@@ -64,7 +64,7 @@
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-jpa</artifactId>
-				<version>1.11.24-ririnto.1</version>
+				<version>1.11.24.1</version>
 			</dependency>
 
 			<!-- Spring Data MongoDB -->
@@ -126,7 +126,7 @@
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-keyvalue</artifactId>
-				<version>1.2.24-ririnto.1</version>
+				<version>1.2.24.1</version>
 			</dependency>
 
 			<!-- Spring Data Envers -->
